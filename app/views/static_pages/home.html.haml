@@ -1,0 +1,15 @@
+.center
+ %h1= 'PracticeUp'
+ %p.container
+  %strong you will like
+  %a{:href=>"http://www.albanydailystar.com/wp-content/uploads/2015/11/researchers-says-existence-of-hidden-rooms-at-great-pyramid-of-giza.jpg"} A fun link <br>
+
+
+  - sentence = "a-"
+  - sentence << "mazing"
+  %strong= sentence
+
+ %div.caption
+  = link_to "sign up", signup_path, class: "btn btn-primary"
+
+
